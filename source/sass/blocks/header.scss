@@ -32,8 +32,8 @@
     }
     
     &__item {
-        color: rgba(0, 0, 0, 1);
-        font-weight: 400px;
+        color: #000;
+        font-weight: 400;
         font-size: 16px;
         line-height: 24px;
         
@@ -67,8 +67,8 @@
         
         img {
             @media(min-width: 768px) {
-            width: 29px;
-            height: 27px;
+                width: 29px;
+                height: 27px;
             }
         }
     }
@@ -77,18 +77,5 @@
         display: flex;
         margin-left: auto;
         gap: 24px;
-    }
-    
-    &__ellipse {
-        position: absolute;
-        min-width: 13px;
-        padding: 0 2px;
-        height: 13px;
-        border-radius: 13px;
-        text-align: center;
-        line-height: 13px;
-        background-color: rgba(217, 217, 217, 1);
-        font-size: 7px;
-        color: rgba(0, 0, 0, 1);
     }
 }
